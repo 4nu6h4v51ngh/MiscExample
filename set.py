@@ -1,0 +1,14 @@
+set1={1,2,3,4,5}
+s1=set1.pop()
+print(s1)
+print(set1.remove(2))
+#print(s2)
+set2={5,6,7,8,9}
+s3=set2.union(set1)
+print(s3)
+s4=set2.intersection(set1)
+print(s4)
+s5=set2.symmetric_difference(set1)
+print(s5)
+s6=set2.difference(set1)
+print(s6)
